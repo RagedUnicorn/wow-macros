@@ -1,0 +1,3 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Allows mindflay to be spammed without stopping
+/run m=0 for i=1,40 do if(strfind(tostring(UnitDebuff("target",i)),"Spell_Shadow_SiphonMana"))then m=1 end end if m==0 then CastSpellByName("Mind Flay(Rank 6)") end

@@ -1,0 +1,4 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Stop casting and cast silence.
+/run SpellStopCasting()
+/cast Silence
