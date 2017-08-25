@@ -1,0 +1,5 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Will dismount on first click and sheep on second.
+#  If the player is not mounted sheep will be casted on the first click
+/script CastSpellByName("Polymorph(Rank 4)")
+/run i=1 while UnitBuff("player",i) do if string.find(UnitBuff("player",i),"Mount") then UseAction(60)end i=i+1 end
