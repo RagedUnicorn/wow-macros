@@ -1,4 +1,4 @@
 # @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Interrupts spellcasting and casts counterspell instead
-/script SpellStopCasting()
+/run SpellStopCasting()
 /cast Counterspell
