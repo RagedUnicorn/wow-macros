@@ -6,7 +6,7 @@
 
 ## Vanilla
 
-[![vanilla_logo](/docs/vanilla.png)](/vanilla)
+[![](/docs/vanilla_logo.png)](/vanilla)
 
 ## License
 
