@@ -1,0 +1,10 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Advanced sapping macro. Will cast vanish when the player is in combat.
+# otherwise stealth is used and the nearest target is sapped. The macro is spammable
+# and even prevents accidental loosing of stealth. The macro is bigger than the max limit
+# of 255 and needs something like supermacro to work around this limit.
+/script for i = 0, 16 do local isStealthed = false;local texture = UnitBuff("player", i) if texture == "Interface\\Icons\\Ability_Stealth" then isStealthed = true; return end end if UnitAffectingCombat("player") then CastSpellByName("Vanish(Rank 2)") else if not isStealthed then CastSpellByName("Stealth") end end
+/script ClearTarget()
+/console targetNearestDistance 10
+/script TargetNearestEnemy();if UnitIsEnemy("player","target") and not UnitIsDead("target") then CastSpellByName("Sap(Rank 3)") end
+/console targetNearestDistance 41

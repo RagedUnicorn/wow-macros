@@ -1,0 +1,7 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Make sure to autoattack target even when not enough
+# energy for sinister strike. Make sure to drag attack into your
+# actionsbars. In this case 25 is the most upper right slot
+/run if GetUnitName("target")==nil then TargetNearestEnemy() end
+/run if not IsCurrentAction(25) then UseAction(25) end
+/cast Sinister Strike(Rank 8)

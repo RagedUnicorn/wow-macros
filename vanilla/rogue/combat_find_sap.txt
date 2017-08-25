@@ -1,0 +1,13 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Search for a close target and sap it. Perfect for finding
+# stealthed enemies
+/script ClearTarget()
+/console targetNearestDistance 10.0
+/script TargetNearestEnemy();
+/script spell="Sap(Rank 3)" if UnitIsEnemy("player", "target") and not UnitIsDead("target") then CastSpellByName(spell) end
+/console targetNearestDistance 41.0
+
+# alternative
+/script ClearTarget()
+/script TargetNearestEnemy()
+/cast Sap(Rank 3)

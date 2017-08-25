@@ -1,0 +1,24 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Apply poison from bag 0 position 1 to mainhand, automatically
+# replacing any other enchant
+/script UseContainerItem(0, 1)
+/script PickupInventoryItem(16)
+/script ReplaceEnchant();
+
+
+# improved version that will search for the poison in all bags
+
+# Instant Poison VI to mainhand
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Instant Poison VI") then UseContainerItem(bag,slot); PickupInventoryItem(16); ReplaceEnchant(); ClearCursor(); end; end; end
+
+# Deadly Poison V to mainhand
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Deadly Poison V") then UseContainerItem(bag,slot); PickupInventoryItem(16); ReplaceEnchant(); ClearCursor(); end; end; end
+
+# Crippling Poison II to mainhand
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Crippling Poison II") then UseContainerItem(bag,slot); PickupInventoryItem(16); ReplaceEnchant(); ClearCursor(); end; end; end
+
+# Mind-numbing Poison III to mainhand
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Mind%-numbing Poison III") then UseContainerItem(bag,slot); PickupInventoryItem(16); ReplaceEnchant(); ClearCursor(); end; end; end
+
+# Wound Poison IV to mainhand
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Wound Poison IV") then UseContainerItem(bag,slot); PickupInventoryItem(16); ReplaceEnchant(); ClearCursor(); end; end; end

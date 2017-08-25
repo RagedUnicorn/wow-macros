@@ -1,0 +1,8 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Spammable vanish then sapping macro. The nearest target is
+# is targeted and sapped.
+/cast Vanish(Rank 2)
+/script ClearTarget()
+/console targetNearestDistance 10
+/script TargetNearestEnemy();if UnitIsEnemy("player","target") and not UnitIsDead("target") then CastSpellByName("Sap(Rank 3)") end
+/console targetNearestDistance 41
