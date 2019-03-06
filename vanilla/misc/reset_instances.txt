@@ -1,0 +1,4 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Will reset all instances and logout
+/script ResetInstances()
+/camp
