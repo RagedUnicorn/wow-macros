@@ -1,3 +1,2 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Increases the maximum camera distance
 /script SetCVar("cameraDistancemax", 50)

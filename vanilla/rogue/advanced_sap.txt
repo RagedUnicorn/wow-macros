@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Advanced sapping macro. Will cast vanish when the player is in combat.
 # otherwise stealth is used and the nearest target is sapped. The macro is spammable
 # and even prevents accidental loosing of stealth. The macro is bigger than the max limit

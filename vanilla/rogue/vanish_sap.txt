@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Spammable vanish then sapping macro. The nearest target is
 # is targeted and sapped.
 /cast Vanish(Rank 2)

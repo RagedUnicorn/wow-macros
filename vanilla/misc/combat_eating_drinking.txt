@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description This macro will be checking whether the player currently has the drinking buff and depending on this
 # use a different action. The goal of this macro is to have a single button for both eating and drinking. In this example
 # action 48 would be drinking and action 36. On first click drinking would start and on second click eating would be starting.

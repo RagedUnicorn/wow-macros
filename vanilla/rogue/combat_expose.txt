@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Expose target and stop attack
 /cast Expose Armor
 /script ClearTarget();

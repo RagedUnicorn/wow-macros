@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Make sure to autoattack target even when not enough
 # energy for sinister strike. Make sure to drag attack into your
 # actionsbars. In this case 25 is the most upper right slot

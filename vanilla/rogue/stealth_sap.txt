@@ -1,6 +1,4 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Spammable makro for dismounting and using stealth -> Sap.
 # Will also work when not mounted
-
 /script a,b,c=GetShapeshiftFormInfo(1);if c then TargetNearestEnemy() CastSpellByName("Sap(Rank 3)") else CastSpellByName("Stealth");end
 /run i=1 while UnitBuff("player",i) do if string.find(UnitBuff("player",i),"Mount") then UseAction(26)end i=i+1 end

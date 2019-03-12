@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Will dismount on first click and blink on second. If the player is not mounted blink will be casted on the first click
 /script SpellStopCasting()
 /script CastSpellByName("Blink")

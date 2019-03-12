@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Stops current cast and starts throwing an Iron Grenade. On second click throwing is aborted. For other
 # grenades replace the string to search for.
 /script SpellStopCasting()

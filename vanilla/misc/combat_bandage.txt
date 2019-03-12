@@ -1,3 +1,2 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Will search for "Heavy Runecloth Bandage" in all bags and use it without loosing target
 /run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Heavy Runecloth Bandage") then TargetUnit("Player");UseContainerItem(bag,slot);TargetLastTarget();end; end; end

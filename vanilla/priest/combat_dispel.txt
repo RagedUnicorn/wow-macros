@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Dispel yourself without loosing your target
 /script TargetUnit("Player")
 /cast Dispel Magic(Rank 2)

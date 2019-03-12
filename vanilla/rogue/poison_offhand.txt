@@ -1,4 +1,3 @@
-# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Apply poison from bag 0 position 1 to offhand, automatically
 # replacing any other enchant
 /script UseContainerItem(0, 1)
