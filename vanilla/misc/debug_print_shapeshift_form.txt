@@ -1,0 +1,2 @@
+# @description Purely for debugging. Will print the shapeshift info that the player currently is in.
+/run local t,n,a=GetShapeshiftFormInfo(1)DEFAULT_CHAT_FRAME:AddMessage(t..","..n..","..(a and "active" or ""))
