@@ -1,5 +1,5 @@
 # @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
-# @description Dispell yourself without loosing your target
+# @description Dispel yourself without loosing your target
 /script TargetUnit("Player")
 /cast Dispel Magic(Rank 2)
 /script TargetLastTarget();
