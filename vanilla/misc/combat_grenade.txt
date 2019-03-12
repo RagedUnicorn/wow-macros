@@ -1,0 +1,5 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description Stops current cast and starts throwing an Iron Grenade. On second click throwing is aborted. For other
+# grenades replace the string to search for.
+/script SpellStopCasting()
+/run for bag = 0,4,1 do for slot = 1,16,1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Iron Grenade") then UseContainerItem(bag,slot);end; end; end

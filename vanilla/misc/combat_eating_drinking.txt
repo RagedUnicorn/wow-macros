@@ -1,0 +1,23 @@
+# @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
+# @description This macro will be checking whether the player currently has the drinking buff and depending on this
+# use a different action. The goal of this macro is to have a single button for both eating and drinking. In this example
+# action 48 would be drinking and action 36. On first click drinking would start and on second click eating would be starting.
+# Note: It is important to recognize that depending on the water level the icon can have a different name
+#
+# Conjure Water Rank 1 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 2 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 3 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 3 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 4 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 5 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 6 - Interface\\Icons\\INV_Drink_07
+# Conjure Water Rank 7 - Interface\\Icons\\INV_Drink_18
+#
+# Note the macro can be switched around if you prefer using eating first and then drinking. Once both actions are running the macro will always execute the second action if
+# the player repeatedly hits the macro. For food the icon will always be the same - Interface\\Icons\\INV_Misc_Fork&Knife
+
+# Drinking first - Spammable eating
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\INV_Drink_18" then x=1 end i=i+1 end if x==0 then UseAction(48) else UseAction(36) end
+
+# Food first - Spammable drinking
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\INV_Misc_Fork&Knife" then x=1 end i=i+1 end if x==0 then UseAction(48) else UseAction(36) end
