@@ -1,5 +1,7 @@
 # @author Michael Wiesendanger <michael.wiesendanger@gmail.com>
 # @description Spammable makro for dismounting and using stealth -> Cheapshot.
 # Will also work when not mounted
+# Note: For this macro to be spammable the macro should be placed on the same position for both stealthed and nonstealthed or
+# a position that does not change at all can be used
 /script a,b,c=GetShapeshiftFormInfo(1);if c then TargetNearestEnemy() CastSpellByName("Cheap Shot") else CastSpellByName("Stealth");end
 /run i=1 while UnitBuff("player",i) do if string.find(UnitBuff("player",i),"Mount") then UseAction(26)end i=i+1 end
