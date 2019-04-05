@@ -8,6 +8,12 @@
 
 [![](/docs/vanilla_logo.png)](/vanilla)
 
+## Interface Slots
+
+Overview of inventory, bag and action slot numbers used in some of the macros within this repository.
+
+![](/docs/interface_slots.png)
+
 ## License
 
 Copyright (c) 2019 Michael Wiesendanger
