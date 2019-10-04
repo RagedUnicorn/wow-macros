@@ -8,6 +8,10 @@
 
 [![](/docs/vanilla_logo.png)](/vanilla)
 
+## Classic
+
+[![](/docs/classic_logo.png)](/classic)
+
 ## Interface Slots
 
 Overview of inventory, bag and action slot numbers used in some of the macros within this repository.
