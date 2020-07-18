@@ -1,0 +1,4 @@
+# @description Interupts all casts and casts silence
+#showtooltip
+/stopcasting
+/cast Silence

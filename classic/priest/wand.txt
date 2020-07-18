@@ -1,0 +1,2 @@
+# @description Spammable wand macro
+/cast !Shoot

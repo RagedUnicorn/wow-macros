@@ -1,0 +1,3 @@
+# @description Casts mind flay if not currently already channeling mind flay
+#showtooltip
+/cast [nochanneling:Mind Flay] Mind Flay

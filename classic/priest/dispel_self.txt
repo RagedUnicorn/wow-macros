@@ -1,0 +1,3 @@
+# @description Dispels the player himself without losing his target
+#showtooltip
+/cast [target=player] Dispel Magic(Rank 2)

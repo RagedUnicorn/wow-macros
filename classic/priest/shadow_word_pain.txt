@@ -1,0 +1,4 @@
+# @description Dismount the player on first click if mounted. Casts shadow word pain on second click
+#showtooltip
+/dismount
+/cast Shadow Word: Pain(Rank 8)
