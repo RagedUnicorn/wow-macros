@@ -1,0 +1,3 @@
+# @description Will apply "Heavy Runecloth Bandage" onto the player itself without loosing target. Can be adapted to any other bandage
+#showtooltip
+/use [target=player] Heavy Runecloth Bandage

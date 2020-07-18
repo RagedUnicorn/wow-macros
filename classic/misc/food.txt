@@ -1,0 +1,6 @@
+# @description Combines the undead cannibalize racial and any food
+#showtooltip Cannibalize(Racial)
+/cast Cannibalize(Racial)
+/use Conjured Sweet Roll
+/use Roasted Quail
+/use Windblossom Berries
