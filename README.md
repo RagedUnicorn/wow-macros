@@ -20,7 +20,7 @@ Overview of inventory, bag and action slot numbers used in some of the macros wi
 
 ## License
 
-Copyright (c) 2019 Michael Wiesendanger
+Copyright (c) 2020 Michael Wiesendanger
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
