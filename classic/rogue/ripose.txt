@@ -1,0 +1,5 @@
+# @description Use riposte if possible otherwise uses sinister strike
+#showtooltip
+/startattack
+/cast Riposte
+/cast Sinister Strike

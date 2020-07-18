@@ -1,0 +1,21 @@
+# @description Uses x-poison on the mainhand and overwriting any other poison or enchant. Poison rank might need to be adapted
+# This macro clicks whatever static popup that is open currently and might have unwanted sideeffects if not used carefully. For example it might accept a group invite
+#showtooltip
+/use Crippling Poison II
+/use 17
+/click StaticPopup1Button1
+
+#showtooltip
+/use Instant Poison VI
+/use 17
+/click StaticPopup1Button1
+
+#showtooltip
+/use Mind-numbing Poison III
+/use 17
+/click StaticPopup1Button1
+
+#showtooltip
+/use Wound Poison IV
+/use 17
+/click StaticPopup1Button1

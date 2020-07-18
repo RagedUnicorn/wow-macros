@@ -1,0 +1,5 @@
+# @description Uses expose armor on first click and stops attacking on the second click. Used for applying expose armor while a target is incapitated (e.g. sap).
+# The player still needs to turn in a certain angle to avoid hitting the target
+#showtooltip
+/cast Expose Armor(Rank 5)
+/stopattack

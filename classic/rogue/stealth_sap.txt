@@ -1,0 +1,6 @@
+# @description Dismounts the player if currently mounted. Uses stealth if the player is not already in stealth. Will use sap if the player has a target
+# This macro needs to be spammed to work. Getting into stealth and using sap are different actions and thus need two keypresses
+#showtooltip Stealth
+/dismount
+/cast !stealth
+/cast [target=target] Sap

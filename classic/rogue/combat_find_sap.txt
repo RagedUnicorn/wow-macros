@@ -1,0 +1,5 @@
+# @description Clears your current target and then targets the nearest enemy. Will then try to use sap on that target
+#showtooltip Sap
+/cleartarget
+/targetenemyplayer
+/cast Sap
