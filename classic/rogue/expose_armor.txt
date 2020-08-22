@@ -3,3 +3,9 @@
 #showtooltip
 /cast Expose Armor(Rank 5)
 /stopattack
+
+# Alternative mousover version which does not require to turn in an angle
+
+#showtooltip
+/cast [@mouseover]  Expose Armor
+/stopattack

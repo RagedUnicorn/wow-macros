@@ -3,3 +3,10 @@
 #showtooltip
 /cast Cheap Shot
 /stopattack
+
+# Alternate version that does not require the player to turn in a certain angle
+
+#showtooltip
+/cast Cheap Shot
+/cleartarget
+/targetlasttarget
