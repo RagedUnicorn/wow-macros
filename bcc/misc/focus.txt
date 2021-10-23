@@ -1,0 +1,2 @@
+# @description Sets focus to mousover or current target. If there is no target focus is cleared
+/focus [@mouseover,exists,nodead] []
