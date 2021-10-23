@@ -12,6 +12,10 @@
 
 [![](/docs/classic_logo.png)](/classic)
 
+## Burning Crusade Classic
+
+[![](/docs/tbc_logo.png)](/bcc)
+
 ## Interface Slots
 
 Overview of inventory, bag and action slot numbers used in some of the macros within this repository.
