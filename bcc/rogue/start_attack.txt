@@ -1,0 +1,4 @@
+# @description starts autoattack (if not already running)
+#showtooltip
+/startattack
+/cast Hemorrhage

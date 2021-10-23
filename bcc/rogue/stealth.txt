@@ -1,0 +1,5 @@
+# @description Spammable stealth macro
+#showtooltip Stealth
+/dismount
+/cast !stealth
+/cast [target=target] Cheap Shot

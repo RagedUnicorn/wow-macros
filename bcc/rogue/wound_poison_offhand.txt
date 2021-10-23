@@ -1,0 +1,5 @@
+# @description Applies Wound Poison to the offhand overwriting any present other effect on the weapon
+#showtooltip
+/use Wound Poison V
+/use 17
+/click StaticPopup1Button1

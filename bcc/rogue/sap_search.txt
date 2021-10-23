@@ -1,0 +1,7 @@
+# @description Spammable macro for sap
+#showtooltip Sap
+/dismount
+/cast !stealth
+/cleartarget
+/targetenemyplayer
+/cast Sap

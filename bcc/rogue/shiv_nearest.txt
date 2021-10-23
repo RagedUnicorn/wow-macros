@@ -1,0 +1,4 @@
+# @description Shiv the nearest target without loosing current the target
+/targetenemyplayer
+/cast Shiv(Rank 1)
+/targetlasttarget

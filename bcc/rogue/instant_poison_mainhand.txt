@@ -1,0 +1,5 @@
+# @description Applies Instant Poison to the mainhand overwriting any present other effect on the weapon
+#showtooltip
+/use Instant Poison VII
+/use 16
+/click StaticPopup1Button1

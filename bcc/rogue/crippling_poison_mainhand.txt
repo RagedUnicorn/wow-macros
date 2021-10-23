@@ -1,0 +1,5 @@
+# @description Applies Crippling Poison to the mainhand overwriting any present other effect on the weapon
+#showtooltip
+/use Crippling Poison II
+/use 16
+/click StaticPopup1Button1

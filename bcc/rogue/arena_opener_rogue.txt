@@ -1,0 +1,10 @@
+# @description  Spammable macro to find target arena1 step to it use premediation and cheap shot
+/target arena1
+/cast [target=arena1] shadowstep
+/cast [target=arena1] premediation
+/cast [target=arena1] cheap shot
+
+/target arena2
+/cast [target=arena2] shadowstep
+/cast [target=arena2] premediation
+/cast [target=arena2] cheap shot

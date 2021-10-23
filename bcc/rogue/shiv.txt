@@ -1,0 +1,4 @@
+# @description Shiv macro - Adapt Weapon name
+#showtooltip Shiv
+/equipslot 17 Blade of Unquenched Thirst
+/cast Shiv
