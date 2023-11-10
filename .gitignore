@@ -25,3 +25,8 @@
 ehthumbs.db
 Icon
 Thumbs.db
+
+# java/maven/intellij
+target/
+.idea/
+*.iml
