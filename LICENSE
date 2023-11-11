@@ -1,28 +1,4 @@
-# wow-macros
-
-> A repository containing a collection for World of Warcraft macros
-
-**Note:** Some macros might require an Addon like Supermacro to work around the limit of 255 characters that a macro can contain
-
-## Vanilla
-
-[![](/docs/vanilla_logo.png)](/vanilla)
-
-## Classic
-
-[![](/docs/classic_logo.png)](/classic)
-
-## Burning Crusade Classic
-
-[![](/docs/tbc_logo.png)](/bcc)
-
-## Interface Slots
-
-Overview of inventory, bag and action slot numbers used in some of the macros within this repository.
-
-![](/docs/interface_slots.png)
-
-## License
+MIT License
 
 Copyright (c) 2023 Michael Wiesendanger
 
