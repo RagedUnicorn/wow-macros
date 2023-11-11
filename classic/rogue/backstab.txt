@@ -1,9 +1,11 @@
-# @description Different version of backstab with or without autoattack
+# @description Different versions of backstab with or without autoattack
 # pve version of backstab with autoattack enabled
-#showtooltip Backstab(Rank 8)
+# pvp version of backstab without autoattack enabled
+
+#showtooltip
 /startattack
-/cast Backstab(Rank 8)
+/cast Backstab
 
 # pvp version of backstab without autoattack enabled
-#showtooltip Backstab(Rank 8)
-/cast Backstab(Rank 8)
+#showtooltip
+/cast Backstab
