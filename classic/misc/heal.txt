@@ -1,0 +1,4 @@
+# @description Use a Whipper Root Tuber and Major Healing Potion
+#showtooltip Major Healing Potion
+/use Whipper Root Tuber
+/use Major Healing Potion
