@@ -1,4 +1,4 @@
 # @description Starts casting a grenade on first click. Stops casting on second click
 #showtooltip
-/use Thorium Grenade
 /stopcasting
+/use Thorium Grenade
