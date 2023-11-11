@@ -1,0 +1,6 @@
+# @description Open with garrote and stop attack immediately. Can be used against mages to bleed them up with both
+# garrote and rupture
+#showtooltip
+/cast Garrote
+/cleartarget
+/stopattack
