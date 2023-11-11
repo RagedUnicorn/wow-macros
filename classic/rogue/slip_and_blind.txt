@@ -1,0 +1,4 @@
+# @description This macro will use a Living Action Potion and then Blind your target.
+#showtooltip
+/use Living Action Potion
+/cast [target=target] Blind
