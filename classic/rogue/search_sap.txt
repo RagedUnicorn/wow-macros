@@ -1,0 +1,7 @@
+# @description Constantly cleartarget and try to use Sap on the target
+#showtooltip Sap
+/dismount
+/cast !stealth
+/cleartarget
+/targetenemyplayer
+/cast Sap

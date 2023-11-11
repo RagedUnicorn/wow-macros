@@ -1,0 +1,6 @@
+# @description Constantly cleartarget and try to use cheapshot on the nearest enemy player. Useful against other
+# stealth classes
+#showtooltip Cheap Shot
+/cleartarget
+/targetenemyplayer
+/cast Cheap Shot
