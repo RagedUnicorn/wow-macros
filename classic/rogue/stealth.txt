@@ -1,0 +1,5 @@
+# @description Dismount, stealth and cast cheap shot if macro is repeatedly pressed
+#showtooltip Stealth
+/dismount
+/cast !stealth
+/cast [target=target] Cheap Shot
