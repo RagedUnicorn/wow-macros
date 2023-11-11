@@ -1,0 +1,3 @@
+# @description A simple macro to start attacking and use Sinister Strike. This is mostly helpful for leveling
+/startattack
+/cast Sinister Strike
