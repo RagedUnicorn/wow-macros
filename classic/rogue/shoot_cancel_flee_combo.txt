@@ -1,0 +1,15 @@
+# @description Combination of normal shooting bow or gun with canceling skull of impending
+# doom and reequipping weapon into offhand. The intention of this macro is mostly to save an extra
+# shortcut for canceling the flee aura. With this macro one can still use his normal shooting shortcut
+# and additionally it will cancel the flee aura and reequip the weapon into the offhand.
+# Note that equipping of the Mainhand in this macro is optional and can be removed if you don't want it.
+/cast Shoot Gun
+/cancelaura flee
+/equipslot 16 [Mainhand]
+/equipslot 17 [Offhand]
+
+
+/cast Shoot Bow
+/cancelaura flee
+/equipslot 16 [Mainhand]
+/equipslot 17 [Offhand]
