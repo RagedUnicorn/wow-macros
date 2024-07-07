@@ -2,3 +2,10 @@
 #showtooltip
 /stopcasting
 /use Thorium Grenade
+
+# Does not display a casting bar and throws the grenade at the cursor
+
+#showtooltip Iron Grenade
+/cast [@cursor] Iron Grenade
+/cast [@cursor] Thorium Grenade
+/stopcasting
