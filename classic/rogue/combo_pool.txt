@@ -1,12 +1,12 @@
 # @description Uses cheap shot on first click and stops attacking on the second click. Used for polling combo points while a target is incapitated (e.g. sap).
 # The player still needs to turn in a certain angle to avoid hitting the target
-#showtooltip
+#showtooltip Cheap Shot
 /cast Cheap Shot
 /stopattack
 
 # Alternate version that does not require the player to turn in a certain angle
 
-#showtooltip
-/cast Cheap Shot
+#showtooltip Cheap Shot
+/cast [@target] Cheap Shot
 /cleartarget
 /stopattack
