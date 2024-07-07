@@ -7,6 +7,6 @@
 
 # Alternative mouseover version which does not require to turn in an angle
 
-#showtooltip
-/cast [@mouseover] Expose Armor
+#showtooltip Expose Armor
+/cast [@target] Expose Armor
 /stopattack
