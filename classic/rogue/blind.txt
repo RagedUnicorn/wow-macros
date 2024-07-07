@@ -1,0 +1,3 @@
+# @description Blind target below cursor. This will still make you loose all combopoints on your current target
+#showtooltip Blind
+/cast [@mouseover] Blind
