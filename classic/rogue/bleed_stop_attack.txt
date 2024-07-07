@@ -4,3 +4,8 @@
 /cast Garrote
 /cleartarget
 /stopattack
+
+#showtooltip Garrote
+/cast [@target] Garrote
+/cleartarget
+/stopattack
