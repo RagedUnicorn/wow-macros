@@ -1,0 +1,5 @@
+# @description Equips anti-stealth set for both better stealth level and better stealth detection
+/run GM_AddToCombatQueue(226831, 0, 0, 8)
+/run GM_AddToCombatQueue(10501, 0, 0, 1)
+/run GM_AddToCombatQueue(219343, 0, 0, 15)
+/run GM_AddToCombatQueue(209821, 0, 0, 11)

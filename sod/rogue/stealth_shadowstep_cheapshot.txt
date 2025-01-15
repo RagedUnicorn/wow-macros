@@ -1,0 +1,5 @@
+# @description Spammable macro for Shadowstep + Cheap Shot. Will cast stealth if the player is not already in stealth
+#showtooltip Shadowstep
+/cast !stealth
+/cast [@target] Shadowstep
+/cast [@target] Cheap Shot

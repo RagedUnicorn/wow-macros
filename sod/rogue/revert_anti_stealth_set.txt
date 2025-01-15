@@ -1,0 +1,5 @@
+# @description Reverts the anti-stealth set to the previous equipment
+/run GM_AddToCombatQueue(231041, 0, 0, 8)
+/run GM_AddToCombatQueue(231553, 0, 0, 1)
+/run GM_AddToCombatQueue(233738, 0, 0, 15)
+/run GM_AddToCombatQueue(233734, 0, 0, 11)

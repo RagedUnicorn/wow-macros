@@ -1,0 +1,6 @@
+# @description Uses insignia, shadowstep and cheap shot. Great for when opened up by some other player
+/use Greater Insignia of the Horde
+/use Blood-Caked Insignia
+/cast Vanish
+/cast Shadowstep
+/cast [target=target] Cheap Shot

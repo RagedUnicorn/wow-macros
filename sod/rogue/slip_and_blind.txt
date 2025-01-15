@@ -1,0 +1,4 @@
+# @description This macro will use the insignia and then Blind your target.
+#showtooltip Blind
+/use Blood-Caked Insignia
+/cast [target=target] Blind
